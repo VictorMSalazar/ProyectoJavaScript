@@ -1,0 +1,16 @@
+[{
+    "id": "pan001",
+    "name": "Gatito Pan",
+    "description": "Pan dulce en forma de gato",
+    "price": 4000
+},{
+    "id": "pan002",
+    "name": "Melon Pan",
+    "description": "Clasico pan japones",
+    "price": 4000
+},{
+    "id": "pan003",
+    "name": "Kurimo Pan",
+    "description": "Pan relleno de natilla",
+    "price": 4000
+}]

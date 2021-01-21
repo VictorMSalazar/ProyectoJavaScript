@@ -1,0 +1,71 @@
+@import"font";
+
+body{
+    background-color: (rgb(255, 221, 240))!important;
+}
+
+.navbar{
+    justify-content: center;
+    font-family: $letraTituloComida;
+    z-index: 1;
+    top: 0;
+    position: sticky!important;
+    opacity: 0.9;
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: $letraTitulo;
+    font-size: 100px;
+}
+
+.subtitulo{
+    font-family: $letraTitulo;
+    text-align: center;
+    background-color: rgb(255, 246, 251);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.palereria__row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between!important;
+}
+
+.pasteleria__card{
+    display: flex;
+    justify-content: center!important;
+}
+.pasteleria__row--lineaUno{
+    margin-bottom: 40px;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer{
+    background-color: rgb(231, 231, 231);
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.telefono{
+    width: 10px;
+}
+
+.instagram{
+   width: 10px;
+}
+
+.correoElectronico{
+    width: 12px;;
+}
+
+.logo--footer{
+    text-align: end;
+}

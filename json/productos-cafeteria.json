@@ -1,0 +1,33 @@
+[{
+    "id": "caf001",
+    "name": "Cafe a Grano",
+    "description": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "price": 8000
+},{
+    "id": "caf002",
+    "name": "Cafe Helado",
+    "description": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "price": 5000
+},{
+    "id": "caf003",
+    "name": "Dalgona Café",
+    "description": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "price": 4000
+},{
+    "id": "caf004",
+    "name": "Smoothie de Fresa",
+    "description": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "price": 4000
+},{
+    "id": "caf005",
+    "name": "Te Variedades",
+    "description": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "price": 5000
+}
+,{
+    "id": "caf005",
+    "name": "Te Matcha Tapioca",
+    "description": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "price": 6000
+}
+]
