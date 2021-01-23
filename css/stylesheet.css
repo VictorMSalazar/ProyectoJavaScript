@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap");
 body {
-  background-color: #fff !important; }
+  background-color: #fff !important;
+  height: 100vh !important; 
+   }
+
 
 .navbar {
   justify-content: center;
@@ -34,6 +37,7 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
+  position: relative;
 }
 
 .footer-basic ul {
