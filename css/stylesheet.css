@@ -5,6 +5,10 @@ body {
   height: 100vh !important; 
    }
 
+.cont-enviarPed{
+  display: flex;
+  justify-content: center;
+}
 
 .navbar {
   justify-content: center;

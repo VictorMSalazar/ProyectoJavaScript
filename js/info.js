@@ -1,4 +1,4 @@
-const products = [{
+ products = [{
   "id" : "AAA001",
   "name" : "Pan de Jamon",
   "description" : "Masa hojaldrada relleno de jamon ahumado, panceta ahumada, aceituna y uvas pasas",
