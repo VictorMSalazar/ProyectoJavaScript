@@ -1,7 +1,7 @@
 class shoppingCart {
     constructor(selectedProducts) {
         var subtotal = 0
-        this.productos = products;
+        this.productos = infoJSON;
         this.carrito = selectedProducts
         this.verTotales = function(grillaTotales) {         
             let grilla = `<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -14,9 +14,9 @@ class shoppingCart {
                                   </button>
                                 </div>
                                 <div class="modal-body">                                 
-                                  <p>El subtotal  es: $ ${this.subtotal().toFixed(0)}</p>
-                                  <p>Tiene un descuento de: $ ${this.aplicoDescuento()}</p>
-                                  <p>El total     es: $ ${this.total()}</p>
+                                  <p>El subtotal  es:                      $ ${this.subtotal().toFixed(0)}</p>
+                                  <p>Tiene un descuento de:                $ ${this.aplicoDescuento()}</p>
+                                  <p>El total     es:                      $ ${this.total()}</p>
                                 </div>
                                 <div class="modal-footer">
                                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Seguir Comprando</button>
@@ -25,14 +25,15 @@ class shoppingCart {
                               </div>
                             </div>
                           </div>`
-                grillaTotales.innerHTML = grilla
+                //grillaTotales.innerHTML = grilla;
+                grillaTotales.html(grilla);  
         }
 
 //-----------------------------------------------------------------
 
         this.subtotal = function() {               
              for (let i in this.carrito) {
-             let r = products.find(c => c.id === this.carrito[i])
+             let r = this.productos.find(c => c.id === this.carrito[i])
                  subtotal += r.price
               }
               return subtotal;
