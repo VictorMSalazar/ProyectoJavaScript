@@ -25,7 +25,6 @@ class shoppingCart {
                               </div>
                             </div>
                           </div>`
-                //grillaTotales.innerHTML = grilla;
                 grillaTotales.html(grilla);  
         }
 

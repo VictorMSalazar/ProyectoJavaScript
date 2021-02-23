@@ -1,38 +1,9 @@
 
-let selectedProducts = []; //Arreglo done iran los productos
-//let merc = document.getElementById("mercaderia");
-//let totales = document.getElementById("totales")
+let selectedProducts = [];
 let HTMLCard = "";
 let merc = $("#mercaderia");
 let totales = $("#totales");
 let infoJSON = [];
-
-
-//function crearTarjeta(merc) {
-// 
-//    let filas = "No tiene productos en el carrito";
-//        if (products.length > 0) {
-//            filas = ""
-//            for (let i in products) {
-//                filas += `	<div class="col-lg-4 mercaderia__card mb-5">
-//          		      		      <div class="card" style="width: 18rem;">
-//          		      	 	       <img src="${products[i].img}" class="card-img-top" alt="img">
-//          		          	     <div class="card-body d-flex justify-content-center flex-column">
-//          		                 <h5 class="card-title">${products[i].name}</h5>
-//          		                 <p class="card-text">${products[i].description}</p>
-//                               <p class="card-text">$ ${products[i].price}</p>
-//          		                 <a href="#" class="btn btn-primary btnAgr mb-2" data-id="${products[i].id}" onclick="agregarProducto()">Agregar</a>                               
-//          		                 </div>
-//          		                </div>
-//          		              </div>`          		
-//            }            
-//        }
-//        //merc.innerHTML = filas   
-//        merc.html(filas);   
-//    }
-//
-////document.addEventListener("DOMContentLoaded", crearTarjeta(merc))
-//$(document).ready(function() {crearTarjeta(merc)})
 
 function crearTarjeta() {
    
